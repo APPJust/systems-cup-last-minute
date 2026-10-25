@@ -33,7 +33,9 @@ python -m http.server 8000 --directory web
 
 ## GitHub Pages
 
-`.github/workflows/deploy.yml` 會在推送 `main` 分支或手動執行時部署 `web/`。在 GitHub repository 的 **Settings → Pages** 將建置來源設為 **GitHub Actions**。成功部署後可從 Actions 的 `github-pages` environment 查看正式網址。
+正式遊玩網址：[系際盃：最後一分鐘](https://appjust.github.io/systems-cup-last-minute/)。
+
+`.github/workflows/deploy.yml` 會在推送 `main` 分支或手動執行時部署 `web/`；本 repository 的 Pages 來源已設為 **GitHub Actions**。若複製到其他 repository，請在 **Settings → Pages** 選擇 **GitHub Actions**。
 
 ## 素材與授權
 
